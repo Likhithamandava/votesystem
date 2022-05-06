@@ -1,0 +1,10 @@
+app:
+  replicas: 1
+  container:
+    image: sandeep9583/vote:frontend
+---
+app:
+  replicas: 1
+  container:
+    image: sandeep9583/vote:backend
+
